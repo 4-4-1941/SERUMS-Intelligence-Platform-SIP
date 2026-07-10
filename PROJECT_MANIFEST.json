@@ -1,1 +1,71 @@
-
+{
+  "project": {
+    "name": "SERUMS-Intelligence-Platform",
+    "shortName": "SIP",
+    "repository": "SERUMS-Intelligence-Platform",
+    "version": "1.0.0",
+    "build": "0001",
+    "status": "Development",
+    "author": "Richard Castillejo",
+    "license": "Private"
+  },
+  "architecture": {
+    "type": "Modular",
+    "frontend": "HTML5,CSS3,JavaScript",
+    "backend": "PHP",
+    "database": "MySQL",
+    "responsive": true
+  },
+  "modules": [
+    {
+      "id": "M001",
+      "name": "Authentication",
+      "status": "Pending"
+    },
+    {
+      "id": "M002",
+      "name": "Users",
+      "status": "Pending"
+    },
+    {
+      "id": "M003",
+      "name": "Licenses",
+      "status": "Pending"
+    },
+    {
+      "id": "M004",
+      "name": "Question Bank",
+      "status": "Pending"
+    },
+    {
+      "id": "M005",
+      "name": "Exam Engine",
+      "status": "Pending"
+    },
+    {
+      "id": "M006",
+      "name": "Statistics",
+      "status": "Pending"
+    },
+    {
+      "id": "M007",
+      "name": "Administrator",
+      "status": "Pending"
+    },
+    {
+      "id": "M008",
+      "name": "Artificial Intelligence",
+      "status": "Pending"
+    }
+  ],
+  "directories": [
+    "docs",
+    "frontend",
+    "backend",
+    "database",
+    "ia",
+    "scripts",
+    "tests",
+    "releases"
+  ]
+}
